@@ -7,23 +7,11 @@
     android:background="#47688d"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="223dp"
-        android:layout_height="132dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.348"
-        app:srcCompat="@mipmap/logoMarco" />
-
     <EditText
         android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="456dp"
         android:ems="10"
         android:hint="Usuario"
         android:inputType="textPersonName"
@@ -32,6 +20,7 @@
         android:textColorHint="#ffffff"
         android:textColorLink="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,12 +35,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et2"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <EditText
         android:id="@+id/et2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
@@ -60,7 +50,16 @@
         android:textColorHint="#ffffff"
         android:textColorLink="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="189dp"
+        app:srcCompat="@mipmap/logomarco"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="211dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

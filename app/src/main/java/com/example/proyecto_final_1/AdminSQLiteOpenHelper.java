@@ -27,10 +27,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         //insert empleados
         db.execSQL("create table empleados (nombre text, apellidos text, cod_empleado text,contraseña text,puesto text, turno text)");
         db.execSQL("INSERT INTO empleados VALUES ('Pablo','Ros Tenorio','Joel1022','joel','camarero','mañana')");
-<<<<<<< HEAD
-=======
         db.execSQL("INSERT INTO empleados VALUES ('Joel Martínez','Rivera Tenorio','Joel1022','joel','camarero','mañana')");
->>>>>>> main
         db.execSQL("INSERT INTO empleados VALUES ('Oscar Eduardo','Founes Jorgge','Oscar0124','oscar24','camarero','mañana')");
         db.execSQL("INSERT INTO empleados VALUES ('Leonela','Founes Jorgge','Leonela0820','leito','cocinera','tarde')");
 

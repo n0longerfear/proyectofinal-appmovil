@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Proyecto_final_1.iml" filepath="$PROJECT_DIR$/Proyecto_final_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Proyecto_final_1.iml" filepath="$PROJECT_DIR$/.idea/Proyecto_final_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_final_1.app.unitTest.iml" />
-<<<<<<< HEAD
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proyectofinal-appmovil.Proyecto_final_1.app.unitTest.iml" />
->>>>>>> main
     </modules>
   </component>
 </project>
