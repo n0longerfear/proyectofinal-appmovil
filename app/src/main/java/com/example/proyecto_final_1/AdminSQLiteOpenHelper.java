@@ -26,10 +26,11 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
 
         //insert empleados
         db.execSQL("create table empleados (nombre text, apellidos text, cod_empleado text,contraseña text,puesto text, turno text)");
-        db.execSQL("INSERT INTO empleados VALUES ('Pablo','Ros Tenorio','Joel1022','joel','camarero','mañana')");
-        db.execSQL("INSERT INTO empleados VALUES ('Joel Martínez','Rivera Tenorio','Joel1022','joel','camarero','mañana')");
-        db.execSQL("INSERT INTO empleados VALUES ('Oscar Eduardo','Founes Jorgge','Oscar0124','oscar24','camarero','mañana')");
-        db.execSQL("INSERT INTO empleados VALUES ('Leonela','Founes Jorgge','Leonela0820','leito','cocinera','tarde')");
+        db.execSQL("INSERT INTO empleados VALUES ('Pablo','Ros Zamora','pabloprz','pabloescura','camarero','mañana')");
+        db.execSQL("INSERT INTO empleados VALUES ('Lucia','Llana Alfonso','Lusilu','peppapig','camarero','mañana')");
+        db.execSQL("INSERT INTO empleados VALUES ('Jesus','Fernández','susogboy','georgepig','camarero','tarde')");
+        db.execSQL("INSERT INTO empleados VALUES ('Marcos','Herranz Plasencia','marcoshp','pizzero','camarero','tarde')");
+        db.execSQL("INSERT INTO empleados VALUES ('Bibiana','Ortiz Iñigo','bibi','bb','cocinera','tarde')");
 
 
         db.execSQL("create table productos (nombre text, precio text, stock text, tipo text)");
@@ -40,7 +41,9 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO productos VALUES ('botellin heineken','1.6','100','bebidas')");
         db.execSQL("INSERT INTO productos VALUES ('vino tinto','1.70','100','bebidas')");
         db.execSQL("INSERT INTO productos VALUES ('botella agua 1/2','1','100','bebidas')");
-        db.execSQL("INSERT INTO productos VALUES ('chicha morada','1.8','100','bebidas')");
+        db.execSQL("INSERT INTO productos VALUES ('cocacola zero','2.50','100','bebidas')");
+        db.execSQL("INSERT INTO productos VALUES ('cocacola normal','2.50','100','bebidas')");
+        db.execSQL("INSERT INTO productos VALUES ('cocacola light','2.50','100','bebidas')");
         //PRIMER PLATO
         db.execSQL("INSERT INTO productos VALUES ('lentejas','4.5','100','primerPlato')");
         db.execSQL("INSERT INTO productos VALUES ('patatas guisadas con costillas','5','100','primerPlato')");
